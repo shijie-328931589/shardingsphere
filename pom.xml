@@ -25,7 +25,7 @@
     </parent>
     <groupId>org.apache.shardingsphere</groupId>
     <artifactId>shardingsphere</artifactId>
-    <version>5.4.1</version>
+    <version>5.4.1.RC.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Apache ShardingSphere</name>
     <description>Build criterion and ecosystem above multi-model databases</description>
@@ -1076,10 +1076,14 @@
     </scm>
     
     <distributionManagement>
-        <site>
-            <id>Apache ShardingSphere</id>
-            <url>https://shardingsphere.apache.org/statistics</url>
-        </site>
+        <repository>
+            <id>ztc-releases</id>
+            <url>https://repo.zhaopin.com/repository/maven-releases/</url>
+        </repository>
+        <snapshotRepository>
+            <id>ztc-snapshots</id>
+            <url>https://repo.zhaopin.com/repository/maven-snapshots/</url>
+        </snapshotRepository>
     </distributionManagement>
     
     <profiles>
