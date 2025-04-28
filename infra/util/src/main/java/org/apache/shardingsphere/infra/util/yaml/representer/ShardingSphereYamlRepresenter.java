@@ -40,6 +40,7 @@ import java.util.Map.Entry;
 public final class ShardingSphereYamlRepresenter extends Representer {
     
     public ShardingSphereYamlRepresenter() {
+        super(new DumperOptions());
         Map<String, Class<?>> yamlShortcuts = new HashMap<>();
         ShardingSphereServiceLoader.getServiceInstances(ShardingSphereYamlShortcuts.class).stream().map(ShardingSphereYamlShortcuts::getYamlShortcuts).forEach(yamlShortcuts::putAll);
         yamlShortcuts.forEach((key, value) -> addClassTag(value, new Tag(key)));

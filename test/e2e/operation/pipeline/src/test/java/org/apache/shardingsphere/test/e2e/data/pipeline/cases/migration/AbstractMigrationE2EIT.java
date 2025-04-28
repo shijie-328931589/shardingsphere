@@ -29,7 +29,7 @@ import org.apache.shardingsphere.test.e2e.data.pipeline.env.enums.PipelineEnvTyp
 import org.awaitility.Awaitility;
 import org.opengauss.util.PSQLException;
 
-import javax.xml.bind.JAXB;
+import jakarta.xml.bind.JAXB;
 import java.sql.SQLException;
 import java.util.Collections;
 import java.util.List;

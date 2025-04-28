@@ -19,6 +19,7 @@ package org.apache.shardingsphere.test.e2e.data.pipeline.cases;
 
 import com.google.common.base.Splitter;
 import com.google.common.base.Strings;
+import jakarta.xml.bind.JAXB;
 import lombok.Getter;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
@@ -55,7 +56,6 @@ import org.apache.shardingsphere.test.util.PropertiesBuilder.Property;
 import org.testcontainers.shaded.org.awaitility.Awaitility;
 
 import javax.sql.DataSource;
-import javax.xml.bind.JAXB;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.ResultSet;

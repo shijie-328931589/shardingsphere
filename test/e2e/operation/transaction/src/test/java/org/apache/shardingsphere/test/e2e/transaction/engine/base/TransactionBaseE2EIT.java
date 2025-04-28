@@ -44,7 +44,7 @@ import org.junit.jupiter.params.provider.ArgumentsSource;
 import org.testcontainers.shaded.org.awaitility.Awaitility;
 
 import javax.sql.DataSource;
-import javax.xml.bind.JAXB;
+import jakarta.xml.bind.JAXB;
 import java.io.File;
 import java.sql.Connection;
 import java.sql.ResultSet;

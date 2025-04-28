@@ -22,8 +22,8 @@ import com.google.common.base.Strings;
 import lombok.Getter;
 import org.apache.shardingsphere.test.it.sql.parser.internal.cases.sql.type.SQLCaseType;
 
-import javax.xml.bind.annotation.XmlElement;
-import javax.xml.bind.annotation.XmlRootElement;
+import jakarta.xml.bind.annotation.XmlElement;
+import jakarta.xml.bind.annotation.XmlRootElement;
 import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;

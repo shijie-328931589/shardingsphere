@@ -33,7 +33,7 @@ import org.apache.shardingsphere.test.e2e.framework.param.model.AssertionTestPar
 import org.junit.jupiter.api.AfterEach;
 
 import javax.sql.DataSource;
-import javax.xml.bind.JAXBException;
+import jakarta.xml.bind.JAXBException;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.sql.Connection;

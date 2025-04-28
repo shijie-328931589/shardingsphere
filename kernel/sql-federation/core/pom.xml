@@ -21,7 +21,7 @@
     <parent>
         <groupId>org.apache.shardingsphere</groupId>
         <artifactId>shardingsphere-sql-federation</artifactId>
-        <version>5.4.1.RC.1-SNAPSHOT</version>
+        <version>5.4.1.RC.3-SNAPSHOT</version>
     </parent>
     <artifactId>shardingsphere-sql-federation-core</artifactId>
     <name>${project.artifactId}</name>
@@ -129,8 +129,8 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>javax.xml.bind</groupId>
-            <artifactId>jaxb-api</artifactId>
+            <groupId>jakarta.xml.bind</groupId>
+            <artifactId>jakarta.xml.bind-api</artifactId>
             <scope>test</scope>
         </dependency>
         <dependency>
